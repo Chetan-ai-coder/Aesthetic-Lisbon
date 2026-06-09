@@ -313,7 +313,7 @@
 
         .luxury-services {
             position: relative;
-            padding: 140px 7%;
+            padding: 100px 7%;
             background: #050505;
             overflow: hidden;
         }
@@ -592,31 +592,31 @@
                     <div class="hidden lg:flex flex-1 justify-center">
                         <ul class="flex gap-8 text-sm">
                             <li>
-                                <a href="#treatments" class="text-zinc-400 hover:text-zinc-100 duration-150">
+                                <a href="#services" class="text-zinc-400 hover:text-zinc-100 duration-150">
                                     Services
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#overview" class="text-zinc-400 hover:text-zinc-100 duration-150">
+                                <a href="#treatments" class="text-zinc-400 hover:text-zinc-100 duration-150">
                                     Treatments
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#why-us" class="text-zinc-400 hover:text-zinc-100 duration-150">
+                                <a href="#about" class="text-zinc-400 hover:text-zinc-100 duration-150">
                                     About
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#doctor" class="text-zinc-400 hover:text-zinc-100 duration-150">
+                                <a href="#faq" class="text-zinc-400 hover:text-zinc-100 duration-150">
                                     FAQ
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#faq" class="text-zinc-400 hover:text-zinc-100 duration-150">
+                                <a href="#contact" class="text-zinc-400 hover:text-zinc-100 duration-150">
                                     Contact
                                 </a>
                             </li>
@@ -632,35 +632,35 @@
                             <ul class="space-y-4 text-base">
 
                                 <li>
-                                    <a href="#treatments" @click="menuState = false"
+                                    <a href="#services" @click="menuState = false"
                                         class="text-zinc-400 hover:text-zinc-100 block duration-150">
                                         Services
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#overview" @click="menuState = false"
+                                    <a href="#treatments" @click="menuState = false"
                                         class="text-zinc-400 hover:text-zinc-100 block duration-150">
                                         Treatments
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#why-us" @click="menuState = false"
+                                    <a href="#about" @click="menuState = false"
                                         class="text-zinc-400 hover:text-zinc-100 block duration-150">
                                         About
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#doctor" @click="menuState = false"
+                                    <a href="#faq" @click="menuState = false"
                                         class="text-zinc-400 hover:text-zinc-100 block duration-150">
                                         FAQ
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#faq" @click="menuState = false"
+                                    <a href="#contact" @click="menuState = false"
                                         class="text-zinc-400 hover:text-zinc-100 block duration-150">
                                         Contact
                                     </a>
@@ -691,7 +691,8 @@
                             </div>
 
                             <!-- CTA Button -->
-                            <a href="#contact" :class="isScrolled ? 'lg:inline-flex' : 'hidden'"
+                            <a href="https://arezuaesthetics.com/book-your-consultation/"
+                                :class="isScrolled ? 'lg:inline-flex' : 'hidden'"
                                 class="inline-flex items-center justify-center text-sm font-medium bg-zinc-100 text-zinc-950 rounded-lg px-4 py-2 hover:bg-zinc-200 transition-colors">
                                 Book Appointment
                             </a>
@@ -717,6 +718,7 @@
             <div
                 class="h-[80rem] absolute left-0 top-0 w-56 -rotate-45 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.06)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] [translate:5%_-50%]">
             </div>
+
         </div>
 
         <!-- Hero Section -->
@@ -744,7 +746,7 @@
                     <!-- Main Headers -->
                     <h1
                         class="mt-8 max-w-4xl mx-auto text-balance text-5xl font-bold tracking-tight md:text-7xl lg:mt-16 xl:text-[5.25rem] text-zinc-100">
-                        Plastic & Aesthetic Surgery in Lisbon
+                        Plastic & Aesthetic Clinic in Lisbon
                     </h1>
                     <p class="mx-auto mt-8 max-w-3xl text-balance text-lg text-zinc-400">
                         LED BY AN INTERNATIONALLY TRAINED PLASTIC SURGEON WITH A SPECIAL FOCUS ON EYELID REJUVENATION
@@ -760,7 +762,7 @@
                                 Book Consultation
                             </a>
                         </div>
-                        <a href="#"
+                        <a href="#treatments"
                             class="inline-flex w-full sm:w-auto items-center justify-center font-medium text-zinc-300 hover:text-zinc-100 rounded-xl px-6 py-3 text-base hover:bg-zinc-900/50 transition-all">
                             Explore Treatments
                         </a>
@@ -768,17 +770,84 @@
 
                 </div>
             </div>
+
+            <!-- Services Overview Section -->
+            <section class="luxury-services" id="services">
+                <div class="services-grid">
+
+                    <!-- Service 1 -->
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://arezuaesthetics.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-24-at-14.37.30.jpeg"
+                                alt="">
+                            <span class="service-number">01</span>
+                        </div>
+
+                        <div class="service-content">
+                            <h3>Plastic Surgery</h3>
+                            <p>
+                                Precision. Refinement. Confidence.
+                            </p>
+
+                            <a href="#" class="service-link">
+                                Explore Treatment
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="service-card featured">
+                        <div class="service-image">
+                            <img src="https://arezuaesthetics.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-18-at-10.39.02-AM-1.jpeg"
+                                alt="">
+                            <span class="service-number">02</span>
+                        </div>
+
+                        <div class="service-content">
+                            <h3>Aesthetic Medicine</h3>
+                            <p>
+                                Natural enhancement, beautifully delivered.
+                            </p>
+
+                            <a href="#" class="service-link">
+                                Explore Treatment
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="service-card">
+                        <div class="service-image">
+                            <img src="https://arezuaesthetics.com/wp-content/uploads/2026/06/andrey-k-TEyKtgLKuNw-unsplash-scaled.jpg"
+                                alt="">
+                            <span class="service-number">03</span>
+                        </div>
+
+                        <div class="service-content">
+                            <h3>Longevity</h3>
+                            <p>
+                                Wellness optimized for modern living.
+                            </p>
+
+                            <a href="#" class="service-link">
+                                Explore Treatment
+                                <span>→</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
         </section>
 
-        <!-- Services Showcase -->
-        <section class="luxury-services">
+        <!-- Treatments Showcase -->
+        <section class="luxury-services" id="treatments">
             <div class="services-header">
                 <span class="services-tag">SPECIALIZED TREATMENTS</span>
                 <h2>Refined Aesthetic Solutions</h2>
-                <!-- <p>
-                    Carefully curated treatments designed to enhance natural beauty
-                    with precision, elegance, and long-lasting confidence.
-                </p> -->
             </div>
 
             <div class="services-grid">
@@ -786,7 +855,8 @@
                 <!-- Service 1 -->
                 <article class="service-card">
                     <div class="service-image">
-                        <img src="https://arezuaesthetics.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-24-at-15.21.53-2048x1775.jpeg" alt="">
+                        <img src="https://arezuaesthetics.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-24-at-15.21.53-2048x1775.jpeg"
+                            alt="">
                         <span class="service-number">01</span>
                     </div>
 
@@ -807,7 +877,8 @@
                 <!-- Service 2 -->
                 <article class="service-card featured">
                     <div class="service-image">
-                        <img src="https://arezuaesthetics.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-24-at-17.37.48-scaled.jpeg" alt="">
+                        <img src="https://arezuaesthetics.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-24-at-17.37.48-scaled.jpeg"
+                            alt="">
                         <span class="service-number">02</span>
                     </div>
 
@@ -828,7 +899,8 @@
                 <!-- Service 3 -->
                 <article class="service-card">
                     <div class="service-image">
-                        <img src="https://arezuaesthetics.com/wp-content/uploads/2026/06/A-little-contour-a-lot-of-impact-✨For-this-patient-we-used-only-2-ml-of-hyaluronic-acid-filler.jpg" alt="">
+                        <img src="https://arezuaesthetics.com/wp-content/uploads/2026/06/A-little-contour-a-lot-of-impact-✨For-this-patient-we-used-only-2-ml-of-hyaluronic-acid-filler.jpg"
+                            alt="">
                         <span class="service-number">03</span>
                     </div>
 
@@ -849,13 +921,14 @@
             </div>
         </section>
 
-        <!-- Services Images Showcase -->
+        <!-- Treatments Images Showcase -->
         <section class="selector-wrapper">
 
             <div class="hero">
                 <h1>Aesthetic Excellence</h1>
                 <p>
-                    Discover refined treatments, elegant results, and a clinic experience designed around confidence and natural beauty.
+                    Discover refined treatments, elegant results, and a clinic experience designed around confidence and
+                    natural beauty.
                 </p>
             </div>
 
@@ -868,12 +941,12 @@
 
                     <div class="label">
                         <div class="icon">
-                            <i class="fas fa-campground"></i>
+                            <i class="fas fa-user-doctor"></i>
                         </div>
 
                         <div class="info">
-                            <div class="main">Luxury Tent</div>
-                            <div class="sub">Cozy glamping under the stars</div>
+                            <div class="main">Personal Consultation</div>
+                            <div class="sub">Guidance, expertise, and confidence from consultation</div>
                         </div>
                     </div>
                 </div>
@@ -885,12 +958,12 @@
 
                     <div class="label">
                         <div class="icon">
-                            <i class="fas fa-fire"></i>
+                            <i class="fas fa-star"></i>
                         </div>
 
                         <div class="info">
-                            <div class="main">Campfire Feast</div>
-                            <div class="sub">Gourmet s'mores & stories</div>
+                            <div class="main">Natural Results</div>
+                            <div class="sub">Enhancing beauty while preserving authenticity.</div>
                         </div>
                     </div>
                 </div>
@@ -902,12 +975,12 @@
 
                     <div class="label">
                         <div class="icon">
-                            <i class="fas fa-water"></i>
+                            <i class="fas fa-clinic-medical"></i>
                         </div>
 
                         <div class="info">
-                            <div class="main">Lakeside Retreat</div>
-                            <div class="sub">Private dock & canoe rides</div>
+                            <div class="main">Luxury Environment</div>
+                            <div class="sub">Where safety meets sophistication.</div>
                         </div>
                     </div>
                 </div>
@@ -919,12 +992,12 @@
 
                     <div class="label">
                         <div class="icon">
-                            <i class="fas fa-hot-tub-person"></i>
+                            <i class="fa-solid fa-tooth"></i>
                         </div>
 
                         <div class="info">
-                            <div class="main">Mountain Spa</div>
-                            <div class="sub">Outdoor sauna & hot tub</div>
+                            <div class="main">Natural Lip Results</div>
+                            <div class="sub">Soft volume designed to look effortless.</div>
                         </div>
                     </div>
                 </div>
@@ -936,12 +1009,12 @@
 
                     <div class="label">
                         <div class="icon">
-                            <i class="fas fa-person-hiking"></i>
+                            <i class="fas fa-award"></i>
                         </div>
 
                         <div class="info">
-                            <div class="main">Guided Adventure</div>
-                            <div class="sub">Expert-led nature tours</div>
+                            <div class="main">Specialist Care</div>
+                            <div class="sub">Where medical expertise meets aesthetic vision.</div>
                         </div>
                     </div>
                 </div>
@@ -1026,7 +1099,7 @@
 
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
 
-                        <a href="#book"
+                        <a href="https://arezuaesthetics.com/book-your-consultation/"
                             class="inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 text-sm font-semibold text-zinc-950 hover:bg-zinc-200 transition-all duration-300">
                             Book Consultation
                         </a>
@@ -1142,7 +1215,7 @@
         </section>
 
         <!-- ===== ABOUT DR. FORSATI ===== -->
-        <section class="py-24 bg-zinc-950" id="doctor">
+        <section class="py-24 bg-zinc-950" id="about">
             <div class="max-w-6xl mx-auto px-6">
 
                 <div class="gold-line mb-20"></div>
@@ -1203,79 +1276,6 @@
 
                 </div>
 
-                <!-- Credentials -->
-                <div class="mt-20 grid md:grid-cols-2 gap-8">
-
-                    <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8">
-                        <h3 class="serif text-2xl mb-6 text-zinc-100">
-                            International Training
-                        </h3>
-
-                        <ul class="space-y-4 text-zinc-400">
-                            <li>• Brown University — United States</li>
-                            <li>• Zurich Plastic Surgery Centres</li>
-                            <li>• Sydney Medical Institutions</li>
-                            <li>• Germany & Lisbon Surgical Departments</li>
-                            <li>• International Aesthetic & Reconstructive Training</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8">
-                        <h3 class="serif text-2xl mb-6 text-zinc-100">
-                            Surgical Background
-                        </h3>
-
-                        <ul class="space-y-4 text-zinc-400">
-                            <li>• Plastic & Reconstructive Surgery</li>
-                            <li>• Aesthetic Surgery</li>
-                            <li>• Burn Surgery</li>
-                            <li>• Hand Surgery</li>
-                            <li>• Intensive Care & Trauma Surgery</li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <!-- Expertise -->
-                <div class="mt-20">
-
-                    <div class="text-center mb-12">
-                        <h3 class="serif text-4xl font-light">
-                            Areas of Expertise
-                        </h3>
-                    </div>
-
-                    <div class="grid md:grid-cols-2 gap-8">
-
-                        <div class="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8">
-                            <p class="text-xs tracking-[0.25em] text-zinc-500 uppercase mb-4">
-                                Surgical Treatments
-                            </p>
-
-                            <ul class="space-y-3 text-zinc-300">
-                                <li>Upper & Lower Eyelid Surgery</li>
-                                <li>Facial Rejuvenation Procedures</li>
-                                <li>Bespoke Aesthetic Surgical Treatments</li>
-                            </ul>
-                        </div>
-
-                        <div class="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8">
-                            <p class="text-xs tracking-[0.25em] text-zinc-500 uppercase mb-4">
-                                Non-Surgical Treatments
-                            </p>
-
-                            <ul class="space-y-3 text-zinc-300">
-                                <li>Natural Botox & Wrinkle Relaxation</li>
-                                <li>Facial Rejuvenation</li>
-                                <li>Natural-Looking Fillers</li>
-                                <li>Skin & Regenerative Treatments</li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-
                 <!-- Why Patients Choose -->
                 <div class="mt-20 bg-zinc-900/40 border border-zinc-800 rounded-3xl p-10">
 
@@ -1315,23 +1315,30 @@
 
                 </div>
 
-                <!-- CTA -->
-                <div class="text-center mt-20">
+                <!-- Bottom CTA Card -->
+                <div class="mt-20">
 
-                    <h3 class="serif text-4xl font-light mb-6">
-                        Book a Consultation
-                    </h3>
+                    <div class="rounded-3xl border border-zinc-800 bg-zinc-900/40 p-10 text-center">
 
-                    <p class="max-w-2xl mx-auto text-zinc-500 mb-8">
-                        Whether you are considering a surgical procedure or a subtle non-surgical treatment, Drª.
-                        Forsati and the Arezu team are committed to delivering personalised care and refined,
-                        natural-looking results.
-                    </p>
+                        <p class="text-zinc-500 mb-3">
+                            Still have questions?
+                        </p>
 
-                    <a href="#book"
-                        class="inline-flex items-center rounded-xl bg-white px-8 py-4 text-sm font-semibold text-zinc-950 transition hover:opacity-90">
-                        Schedule Consultation →
-                    </a>
+                        <h3 class="serif text-3xl md:text-4xl font-light text-zinc-100 mb-6">
+                            Speak With Our Medical Team
+                        </h3>
+
+                        <p class="max-w-2xl mx-auto text-zinc-500 mb-8">
+                            We're happy to answer any questions regarding treatments, suitability, recovery or expected
+                            results.
+                        </p>
+
+                        <a href="https://arezuaesthetics.com/book-your-consultation/"
+                            class="inline-flex items-center rounded-xl bg-white px-8 py-4 text-sm font-semibold text-zinc-950 hover:opacity-90 transition">
+                            Book Consultation →
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -1458,7 +1465,7 @@
                 </div>
 
                 <!-- Appointment Form -->
-                <section id="appointment-form" class="py-24 bg-zinc-950">
+                <section id="appointment-form" class="pt-24 bg-zinc-950">
                     <div class="max-w-5xl mx-auto px-6">
 
                         <div class="text-center mb-14">
@@ -1546,40 +1553,12 @@
                     </div>
                 </section>
 
-                <!-- Bottom CTA Card -->
-
-                <div class="mt-20">
-
-                    <div class="rounded-3xl border border-zinc-800 bg-zinc-900/40 p-10 text-center">
-
-                        <p class="text-zinc-500 mb-3">
-                            Still have questions?
-                        </p>
-
-                        <h3 class="serif text-3xl md:text-4xl font-light text-zinc-100 mb-6">
-                            Speak With Our Medical Team
-                        </h3>
-
-                        <p class="max-w-2xl mx-auto text-zinc-500 mb-8">
-                            We're happy to answer any questions regarding treatments, suitability, recovery or expected
-                            results.
-                        </p>
-
-                        <a href="#book"
-                            class="inline-flex items-center rounded-xl bg-white px-8 py-4 text-sm font-semibold text-zinc-950 hover:opacity-90 transition">
-                            Book Consultation →
-                        </a>
-
-                    </div>
-
-                </div>
-
             </div>
 
         </section>
 
         <!-- ===== BOOK CONSULTATION CTA ===== -->
-        <section id="book" class="relative overflow-hidden py-32 bg-black">
+        <section id="contact" class="relative overflow-hidden py-32 bg-black">
             <div class="gold-line mb-20"></div>
 
             <!-- Grid Background -->
@@ -1725,7 +1704,7 @@
                         <p class="text-zinc-600 text-sm font-light leading-relaxed">Premium aesthetic medicine in
                             Lisbon. Natural results, medical excellence.</p>
                         <div class="flex gap-3 mt-4">
-                            <a href="#"
+                            <a href="https://www.instagram.com/arezuaesthetics"
                                 class="w-10 h-10 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center hover:border-[#ffffff]/40 transition-colors">
                                 <svg class="w-4 h-4 text-zinc-400" fill="currentColor" viewBox="0 0 24 24">
                                     <path
@@ -1811,7 +1790,7 @@
                                 info@arezuaesthetics.com
                             </li>
                         </ul>
-                        <a href="#book"
+                        <a href="https://arezuaesthetics.com/book-your-consultation/"
                             class="mt-5 inline-block btn-gold text-zinc-950 text-sm font-semibold px-4 py-2.5 rounded-lg tracking-wide">
                             Request Appointment →
                         </a>
@@ -1837,7 +1816,7 @@
             x-transition:enter-start="translate-y-full opacity-0" x-transition:enter-end="translate-y-0 opacity-100"
             class="sticky-bar fixed bottom-0 left-0 right-0 z-40 px-6 py-3 flex items-center justify-between">
             <div class="hidden sm:block">
-                <p class="text-zinc-300 text-sm font-medium">Botulinum Toxin (Botox®) — Arezu Aesthetics, Lisbon</p>
+                <p class="text-zinc-300 text-sm font-medium">Plastic & Aesthetic Surgery — Arezu Aesthetics, Lisbon</p>
                 <p class="text-zinc-600 text-xs">Internationally trained physicians · Natural results guaranteed</p>
             </div>
             <div class="flex gap-3 w-full sm:w-auto">
@@ -1846,7 +1825,7 @@
                     <i data-lucide="phone" class="w-4 h-4"></i>
                     <span class="hidden sm:inline">Call Now</span>
                 </a>
-                <a href="#book"
+                <a href="https://arezuaesthetics.com/book-your-consultation/"
                     class="flex-1 sm:flex-none btn-gold text-zinc-950 font-semibold px-5 py-2.5 rounded-lg text-sm text-center">
                     Book Consultation
                 </a>
@@ -1980,7 +1959,32 @@
 
     </script>
 
+    <!-- Services JS -->
+    <script>
+        const items = document.querySelectorAll('.service-item');
+        const image = document.getElementById('serviceImage');
 
+        items.forEach(item => {
+
+            item.addEventListener('mouseenter', () => {
+
+                items.forEach(el =>
+                    el.classList.remove('active')
+                );
+
+                item.classList.add('active');
+
+                image.style.opacity = 0;
+
+                setTimeout(() => {
+                    image.src = item.dataset.image;
+                    image.style.opacity = 1;
+                }, 200);
+
+            });
+
+        });
+    </script>
 
     <script>
         window.addEventListener('load', () => {
